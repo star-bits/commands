@@ -1,7 +1,7 @@
 # General
 
 ```
-#size of items
+# size of items
 du -sh *
 
 # number of items
@@ -15,10 +15,9 @@ ps -ef
 kill `PID`
 ```
 
----
-
 # venv
 
+```
 python3 -m venv ~/x/xvnv
 
 nano ~/.zshrc
@@ -27,15 +26,16 @@ cd ~/x
 source xvnv/bin/activate
 
 source ~/.zshrc
-
----
+```
 
 # conda
 
----
+```
+```
 
 # git
 
+```
 git status
 
 git add work1.txt
@@ -49,14 +49,14 @@ git log --oneline --all --graph
 
 git commit --amend -m "msg ammended"
 
-\#HEAD: working directory
-\#master: always refers to the latest change
+# HEAD: working directory
+# master: always refers to the latest change
 
 git checkout 055d30ba
 git checkout master
 
-\#checkout은 HEAD를 움직인다
-\#reset은 HEAD가 가리키는 브랜치를 움직인다
+# checkout은 HEAD를 움직인다
+# reset은 HEAD가 가리키는 브랜치를 움직인다
 
 git reset --hard 624e
 
@@ -71,3 +71,4 @@ git remote add origin https://github.com/git/test.git
 
 git push --set-upstream origin master
 git push
+```
