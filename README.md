@@ -44,6 +44,8 @@ conda create --name xcda python=3.8
 conda activate xcda
 conda deactivate
 
+conda config --set auto_activate_base false
+
 conda env list
 
 # packages can be installed from anaconda, conda-forge, or pypi (pip).
