@@ -16,7 +16,7 @@ ps -ef
 kill `PID`
 ```
 
-# homebrew
+# brew
 
 ```
 brew install miniconda
