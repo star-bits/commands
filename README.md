@@ -46,7 +46,7 @@ conda deactivate
 
 conda env list
 
-# packages can be installed from Anaconda Repository, Anaconda Cloud, or through pip.
+# packages can be installed from anaconda, conda-forge, or pypi (pip).
 
 # requirements.txt equivalent
 conda env export --file environment.yml 
