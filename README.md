@@ -1,18 +1,26 @@
 # misc.
 
 ```
-# size of items
+# disk usage
 du -sh *
 
-# number of items
+# list count
 ls | wc -l
 
 rm img_{1..10}.jpg
 
 nvidia-smi -l 1
 
+# process status
 ps -ef
 kill `PID`
+```
+
+# homebrew
+
+```
+brew install miniconda
+brew uninstall miniconda
 ```
 
 # venv
@@ -31,6 +39,25 @@ source ~/.zshrc
 # conda
 
 ```
+conda create --name xcda python=3.8
+
+conda activate xcda
+conda deactivate
+
+conda create --prefix /path/to/xcda python=3.8
+conda config --set env_prompt '({xcda}) ' # gives error
+conda activate /path/to/xcda
+
+conda env list
+
+# packages can be installed from Anaconda Repository, Anaconda Cloud, or through pip.
+
+# requirements.txt equivalent
+conda env export --file environment.yml 
+conda env create -n xcda -f /path/to/environment.yml
+conda env update -n xcda -f /path/to/environment.yml
+
+conda env remove -n xcda
 ```
 
 # git
