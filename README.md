@@ -44,10 +44,6 @@ conda create --name xcda python=3.8
 conda activate xcda
 conda deactivate
 
-conda create --prefix /path/to/xcda python=3.8
-conda config --set env_prompt '({xcda}) ' # gives error
-conda activate /path/to/xcda
-
 conda env list
 
 # packages can be installed from Anaconda Repository, Anaconda Cloud, or through pip.
@@ -76,7 +72,7 @@ git log --oneline --all --graph
 
 git commit --amend -m "msg ammended"
 
-# HEAD: points at working directory
+# HEAD: points at the working directory
 # master: refers to the latest change
 
 git checkout 055d
@@ -87,7 +83,6 @@ git reset --hard 624e
 git reflog
 
 git branch exp
-git checkout -b exp
 
 git tag release/1.0
 
