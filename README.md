@@ -13,7 +13,7 @@ nvidia-smi -l 1
 
 # process status
 ps -ef
-kill `PID`
+kill PID
 ```
 
 # brew
@@ -30,6 +30,7 @@ python3 -m venv ~/x/xvnv
 
 nano ~/.zshrc
 
+# add the following on .zshrc
 cd ~/x
 source xvnv/bin/activate
 
@@ -61,8 +62,11 @@ conda env remove -n xcda
 # git
 
 ```
+git init
+
 git status
 
+git add .
 git add work1.txt
 git commit -m "work1 msg"
 
@@ -74,22 +78,33 @@ git log --oneline --all --graph
 
 git commit --amend -m "msg ammended"
 
-# HEAD: points at the working directory
+# HEAD: where you are right now
 # master: refers to the latest change
+# detached HEAD state: HEAD is not pointing at master
 
+# checkout은 HEAD를 움직인다
 git checkout 055d
 git checkout master
 
+# reset은 HEAD가 가리키는 branch를 움직인다 (e.g. master branch 자체를 움직임)
 git reset --hard 624e
 
 git reflog
 
+# create a branch at where HEAD is
 git branch exp
 
 git tag release/1.0
 
+# add remote and give it a name 'origin'
 git remote add origin https://github.com/user/repo.git
 
 git push --set-upstream origin master
 git push
+
+git fetch
+git merge origin/master
+
+# pull = fetch + merge
+git pull
 ```
