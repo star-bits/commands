@@ -39,9 +39,9 @@ source ~/.zshrc
 git status
 
 git add work1.txt
-git commit -m "work 1 msg"
+git commit -m "work1 msg"
 
-git commit -a -m "work 2 msg"
+git commit -a -m "work2 msg"
 
 git log
 git log --oneline
@@ -49,14 +49,11 @@ git log --oneline --all --graph
 
 git commit --amend -m "msg ammended"
 
-# HEAD: working directory
-# master: always refers to the latest change
+# HEAD: points at working directory
+# master: refers to the latest change
 
-git checkout 055d30ba
+git checkout 055d
 git checkout master
-
-# checkout은 HEAD를 움직인다
-# reset은 HEAD가 가리키는 브랜치를 움직인다
 
 git reset --hard 624e
 
@@ -67,7 +64,7 @@ git checkout -b exp
 
 git tag release/1.0
 
-git remote add origin https://github.com/git/test.git
+git remote add origin https://github.com/user/repo.git
 
 git push --set-upstream origin master
 git push
