@@ -14,6 +14,12 @@ nvidia-smi -l 1
 # process status
 ps -ef
 kill PID
+
+# hidden files
+ls -al
+
+# shell restart
+source ~/.bashrc
 ```
 
 # brew
