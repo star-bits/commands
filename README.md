@@ -7,6 +7,9 @@ du -sh *
 # list count
 ls | wc -l
 
+# list size descending order
+ls -lSh
+
 rm img_{1..10}.jpg
 
 nvidia-smi -l 1
