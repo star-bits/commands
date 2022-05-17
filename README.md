@@ -116,4 +116,7 @@ git merge origin/master
 
 # pull = fetch + merge
 git pull
+
+git remote -v
+git remote rm origin
 ```
