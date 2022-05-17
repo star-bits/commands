@@ -4,6 +4,9 @@
 # disk usage
 du -sh *
 
+# disk free
+df -h
+
 # list count
 ls | wc -l
 
@@ -23,6 +26,9 @@ ls -al
 
 # shell restart
 source ~/.bashrc
+
+# download
+wget url
 ```
 
 # brew
