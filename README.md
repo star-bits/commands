@@ -30,8 +30,10 @@ source ~/.bashrc
 # download
 wget url
 
-# unzip
-cat *.tar | tar -xvf - -i
+# tar
+tar cvf A.tar A
+tar tvf A.tar
+tar xvf A.tar
 ```
 
 # brew
