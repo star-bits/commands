@@ -1,4 +1,6 @@
-# misc.
+# Commands
+
+## misc.
 
 ```
 # disk usage
@@ -36,14 +38,14 @@ tar tvf A.tar
 tar xvf A.tar
 ```
 
-# brew
+## brew
 
 ```
 brew install miniconda
 brew uninstall miniconda
 ```
 
-# venv
+## venv
 
 ```
 python3 -m venv ~/x/xvnv
@@ -57,7 +59,7 @@ source xvnv/bin/activate
 source ~/.zshrc
 ```
 
-# conda
+## conda
 
 ```
 conda create --name xcda python=3.8
@@ -79,7 +81,7 @@ conda env update -n xcda -f /path/to/environment.yml
 conda env remove -n xcda
 ```
 
-# git
+## git
 
 ```
 git init
