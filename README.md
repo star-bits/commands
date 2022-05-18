@@ -29,6 +29,9 @@ source ~/.bashrc
 
 # download
 wget url
+
+# unzip
+cat *.tar | tar -xvf - -i
 ```
 
 # brew
