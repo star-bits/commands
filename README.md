@@ -1,4 +1,4 @@
-# Commands
+# Terminal commands cheat sheet
 
 ## misc.
 ```
