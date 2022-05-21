@@ -55,6 +55,7 @@ deactivate
 
 pip freeze
 
+# to activate xvnv automatically
 nano ~/.zshrc
   cd ~/x
   source xvnv/bin/activate
