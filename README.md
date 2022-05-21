@@ -1,7 +1,6 @@
 # Commands
 
 ## misc.
-
 ```
 # disk usage
 du -sh *
@@ -39,14 +38,12 @@ tar xvf A.tar
 ```
 
 ## brew
-
 ```
 brew install miniconda
 brew uninstall miniconda
 ```
 
 ## venv
-
 ```
 python3 -m venv xvnv
 
@@ -64,8 +61,17 @@ source xvnv/bin/activate
 source ~/.zshrc
 ```
 
-## conda
+## virtualenv
+```
+virtualenv --python=python3 xvlv
 
+source xvlv/bin/activate
+deactivate
+
+pip freeze
+```
+
+## conda
 ```
 conda create --name xcda python=3.8
 
@@ -86,8 +92,16 @@ conda env update -n xcda -f /path/to/environment.yml
 conda env remove -n xcda
 ```
 
-## git
+## jupyter
+```
+# http://localhost:8888/tree
+jupyter notebook
 
+# http://localhost:8888/lab
+jupyter lab
+```
+
+## git
 ```
 git init
 
