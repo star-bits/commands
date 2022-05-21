@@ -35,6 +35,11 @@ wget url
 tar cvf A.tar A
 tar tvf A.tar
 tar xvf A.tar
+
+# current shell
+echo $SHELL
+# enable shell
+bash
 ```
 
 ## brew
