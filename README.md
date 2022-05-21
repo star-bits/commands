@@ -48,14 +48,16 @@ brew uninstall miniconda
 ## venv
 
 ```
-python3 -m venv ~/x/xvnv
+python3 -m venv xvnv
+
+source xvnv/bin/activate
+deactivate
+
+pip freeze
 
 nano ~/.zshrc
-
-# add the following on .zshrc
-cd ~/x
-source xvnv/bin/activate
-
+  cd ~/x
+  source xvnv/bin/activate
 source ~/.zshrc
 ```
 
