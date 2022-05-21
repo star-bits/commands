@@ -45,12 +45,6 @@ tar tvf A.tar
 tar xvf A.tar
 ```
 
-## brew
-```
-brew install miniconda
-brew uninstall miniconda
-```
-
 ## venv
 ```
 python3 -m venv xvnv
@@ -77,6 +71,12 @@ source xvlv/bin/activate
 deactivate
 
 pip freeze
+```
+
+## brew
+```
+brew install miniconda
+brew uninstall miniconda
 ```
 
 ## conda
