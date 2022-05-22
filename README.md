@@ -37,7 +37,7 @@ echo $SHELL
 bash
 
 # download
-wget url
+wget https://url_example.com/file_name
 
 # tar: create, view, extract
 tar cvf A.tar A
