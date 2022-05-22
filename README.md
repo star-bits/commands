@@ -37,7 +37,7 @@ echo $SHELL
 bash
 
 # download
-wget https://url_example.com/file_name
+wget https://website_name.com/file_name
 
 # tar: create, view, extract
 tar cvf A.tar A
@@ -168,7 +168,7 @@ git branch exp
 git tag release/1.0
 
 # add remote and give it a name 'origin'
-git remote add origin https://github.com/user/repo.git
+git remote add origin https://github.com/user_name/repo_name.git
 
 git push --set-upstream origin master
 git push
