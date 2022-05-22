@@ -43,6 +43,10 @@ wget https://website_name.com/file_name
 tar cvf A.tar A
 tar tvf A.tar
 tar xvf A.tar
+
+# history
+history
+!42
 ```
 
 ## vi
