@@ -1,6 +1,6 @@
 # Terminal commands cheat sheet
 
-## misc.
+## sh
 ```
 # disk usage
 du -sh *
