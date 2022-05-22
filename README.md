@@ -20,7 +20,7 @@ nvidia-smi -l 1
 
 # process status
 ps -ef
-kill PID
+kill `PID`
 
 # hidden files
 ls -al
@@ -43,6 +43,25 @@ wget url
 tar cvf A.tar A
 tar tvf A.tar
 tar xvf A.tar
+```
+
+## vi
+```
+vi file_name.txt
+
+# Switch to Insert mode
+i
+
+# Switch to Command mode
+`ESC`
+
+# Switch to Last Line mode
+:
+
+# quit (at Last Line mode)
+q
+# write and quit (at Last Line mode)
+wq
 ```
 
 ## venv
