@@ -49,18 +49,18 @@ tar xvf A.tar
 ```
 vi file_name.txt
 
-# Switch to Insert mode
+# switch to Insert Mode
 i
 
-# Switch to Command mode
+# switch to Command Mode
 `ESC`
 
-# Switch to Last Line mode
+# switch to Last Line Mode
 :
 
-# quit (at Last Line mode)
+# quit (at Last Line Mode)
 q
-# write and quit (at Last Line mode)
+# write and quit (at Last Line Mode)
 wq
 ```
 
