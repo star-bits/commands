@@ -47,6 +47,10 @@ tar xvf A.tar
 # history
 history
 !42
+
+# grep
+ls | grep "vi"
+history | grep "vi"
 ```
 
 ## vi
