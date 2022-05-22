@@ -107,6 +107,9 @@ jupyter notebook
 
 # http://localhost:8888/lab
 jupyter lab
+
+# http://localhost:8888/voila
+voila
 ```
 
 ## git
