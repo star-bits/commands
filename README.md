@@ -44,6 +44,9 @@ tar cvf A.tar A
 tar tvf A.tar
 tar xvf A.tar
 
+# zip
+zip -er A.zip A
+
 # history
 history
 !42
