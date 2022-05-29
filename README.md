@@ -106,7 +106,8 @@ pip freeze
 ## brew
 ```
 brew install miniconda
-brew uninstall miniconda
+brew install scrcpy
+brew install rename
 ```
 
 ## conda
