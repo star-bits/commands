@@ -131,6 +131,21 @@ conda env update -n xcda -f /path/to/environment.yml
 conda env remove -n xcda
 ```
 
+## poetry
+```
+# install poetry
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+
+# create pyproject.toml
+poetry init
+
+# activate virtual environment
+poetry shell
+
+# create poetry.lock
+poetry install
+```
+
 ## jupyter
 ```
 # http://localhost:8888/tree
