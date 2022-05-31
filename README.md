@@ -159,6 +159,19 @@ jupyter lab
 voila
 ```
 
+## tmux
+```
+apt-get install tmux
+
+tmux new -s session_name
+
+tmux ls
+
+tmux attach -t session_name
+
+tmux kill-session -t session_name
+```
+
 ## git
 ```
 git init
