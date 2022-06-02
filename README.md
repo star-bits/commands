@@ -158,6 +158,19 @@ jupyter lab
 # http://localhost:8888/voila
 voila
 ```
+```
+# to check the current kernel in jupyter notebook:
+import sys
+
+if hasattr(sys, 'base_prefix'):
+    print(f"base: {sys.base_prefix}")
+
+if hasattr(sys, 'real_prefix'):
+    print(f"real: {sys.real_prefix}")
+
+if hasattr(sys, 'prefix'):
+    print(f"prfx: {sys.prefix}")
+```
 
 ## tmux
 ```
